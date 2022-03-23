@@ -13,7 +13,7 @@ function ProfileCard({writer}) {
     <div className='card content'>
     {showBio ? (
        <div classname='biowrap'>
-      <p className='bio'>writer.bio</p>
+      <p className='bio'>{writer.bio}</p>
       </div>
        ):(
          <img src= {`images/${writer.avatar}.png`}
